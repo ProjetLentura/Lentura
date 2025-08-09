@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Céleste",
+    "age": 28,
+    "interests": [
+      "Philosophie",
+      "Littérature",
+      "Musique"
+    ],
+    "intention": "Amitié",
+    "duration": "Illimitée",
+    "language": "Français",
+    "bio": "Échanges par lettre de préférence, rythme lent."
+  },
+  {
+    "name": "Jonas",
+    "age": 24,
+    "interests": [
+      "Film",
+      "Deutsch",
+      "Wandern"
+    ],
+    "intention": "Sprachaustausch",
+    "duration": "6 mois",
+    "language": "Deutsch",
+    "bio": "Schreibt gerne über Kino und Alltag."
+  },
+  {
+    "name": "Ana",
+    "age": 31,
+    "interests": [
+      "Poésie",
+      "Écologie",
+      "Garten"
+    ],
+    "intention": "Correspondance thématique",
+    "duration": "Un été",
+    "language": "Français",
+    "bio": "Thème: poésie et écologie du quotidien."
+  }
+]

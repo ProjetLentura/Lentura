@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile — Lentura</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="profils.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="public/logo.png" alt="Lentura" class="logo">
+      <div class="site-title">Lentura</div>
+    </div>
+    <nav class="nav"><ul>
+      <li><a href="index-de.html">Startseite</a></li>
+      <li><a href="profils-de.html">Brieffreunde</a></li>
+      <li><a href="contact-de.html">Kontakt</a></li>
+    </ul></nav>
+    <div class="lang-switch">
+      <a href="profils-fr.html" data-lang="fr">FR</a> | <a href="profils-de.html" data-lang="de">DE</a>
+    </div>
+  </div>
+</header>
+<main class="container">
+  <h1>Profile</h1>
+  <div class="card">
+    <label for="lang">Sprache</label>
+    <select id="lang">
+      <option value="">Alle</option>
+      <option>Français</option>
+      <option>Deutsch</option>
+      <option>English</option>
+    </select>
+    <label for="search">Suchen (Interesse, Absicht…)</label>
+    <input id="search" placeholder="z.B. Philosophie, Freundschaft">
+  </div>
+  <div id="profiles" class="grid"></div>
+</main>
+<footer class="footer"><div class="container small">© 2025 Lentura</div></footer>
+</body>
+</html>

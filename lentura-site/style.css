@@ -1,0 +1,36 @@
+:root{
+  --violet:#5A2D82;
+  --vert:#2E7D66;
+  --orange:#F29F05;
+  --jaune:#F2D64B;
+  --text:#1b1b1b;
+  --bg:#fffdf9;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";}
+a{color:var(--violet);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1000px;margin:0 auto;padding:0 16px}
+.header{position:sticky;top:0;background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.06);z-index:10}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:36px;height:36px;background:var(--violet);border-radius:8px;display:inline-block}
+.site-title{font-weight:700;font-size:1.25rem;margin:0}
+.nav ul{display:flex;list-style:none;margin:0;padding:0;gap:14px;flex-wrap:wrap}
+.lang-switch{display:flex;gap:8px;font-size:.9rem}
+main{padding:28px 0}
+h1{font-size:2rem;margin:.2rem 0 1rem}
+h2{margin:1.2rem 0 .5rem}
+.card{border:1px solid #eee;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 2px 10px rgba(0,0,0,.04);background:white}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.grid{grid-template-columns:1fr}}
+.btn{display:inline-block;border-radius:999px;padding:10px 16px;border:1px solid var(--violet);color:white;background:var(--violet);font-weight:600}
+.btn.outline{background:transparent;color:var(--violet)}
+.footer{border-top:1px solid #eee;padding:24px 0;color:#555}
+.badge{background:var(--jaune);padding:2px 8px;border-radius:999px;font-size:.8rem;margin-left:8px}
+input,textarea,select{width:100%;padding:10px;border-radius:10px;border:1px solid #ddd}
+label{display:block;margin:.6rem 0 .3rem}
+form{display:grid;gap:10px}
+.small{font-size:.9rem;color:#666}
+.tag{display:inline-block;background:#f4f4f4;border:1px solid #eee;border-radius:999px;padding:4px 10px;margin:4px 6px 0 0;font-size:.85rem}
